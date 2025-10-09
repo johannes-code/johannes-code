@@ -151,3 +151,4 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 if __name__ == "__main__":
     main()
+
