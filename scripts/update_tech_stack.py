@@ -2,7 +2,6 @@ import requests
 import os
 from datetime import datetime
 from collections import defaultdict
-from urllib.parse import quote
 
 # Get tokens and user info from environment
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
@@ -17,18 +16,41 @@ headers = {
     'Accept': 'application/vnd.github.v3+json'
 }
 
-def get_color_for_percentage(percentage):
-    """Returns color code based on percentage"""
-    if percentage >= 80:
-        return 'brightgreen'  # Green
-    elif percentage >= 60:
-        return 'green'  # Light green
-    elif percentage >= 40:
-        return 'yellow'  # Yellow
-    elif percentage >= 20:
-        return 'orange'  # Orange
-    else:
-        return 'red'  # Red
+# GitHub's official language colors
+LANGUAGE_COLORS = {
+    'Python': '🟦',
+    'JavaScript': '🟨',
+    'TypeScript': '🟦',
+    'Java': '🟧',
+    'C++': '🟪',
+    'C': '⬜',
+    'C#': '🟩',
+    'Go': '🟦',
+    'Rust': '🟧',
+    'Ruby': '🟥',
+    'PHP': '🟪',
+    'Swift': '🟧',
+    'Kotlin': '🟪',
+    'Dart': '🟦',
+    'R': '🟦',
+    'Shell': '🟩',
+    'HTML': '🟧',
+    'CSS': '🟪',
+    'SCSS': '🟪',
+    'Vue': '🟩',
+    'Jupyter Notebook': '🟧',
+    'Lua': '🟦',
+    'Perl': '🟦',
+    'Scala': '🟥',
+    'Haskell': '🟪',
+    'Elixir': '🟪',
+    'Clojure': '🟥',
+    'Objective-C': '🟦',
+    'Dockerfile': '🟦',
+    'YAML': '🟥',
+    'Markdown': '🟦',
+    'JSON': '⬜',
+}
 
 def get_all_repos():
     """Fetches all repositories for the user"""
@@ -61,14 +83,11 @@ def get_repo_languages(repo_name):
         return response.json()
     return {}
 
-def create_progress_bar(lang, percentage, color):
-    """Creates a shields.io progress bar badge"""
-    # URL encode the label and message
-    label = quote(lang)
-    message = quote(f"{percentage:.1f}%")
-    
-    badge_url = f"https://img.shields.io/badge/{label}-{message}-{color}?style=for-the-badge"
-    return f"![{lang}]({badge_url})"
+def create_progress_bar(percentage):
+    """Creates a text-based progress bar"""
+    filled = int(percentage / 2)  # 50 chars = 100%
+    empty = 50 - filled
+    return '█' * filled + '░' * empty
 
 def main():
     print("🔍 Fetching all repositories...")
@@ -101,32 +120,32 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 """
     
-    # Add each technology with colored progress badge
+    # Add each technology as a card
     for lang, bytes_count in sorted_languages:
         percentage = (bytes_count / total_bytes) * 100
         repos_used = repo_count[lang]
-        color = get_color_for_percentage(percentage)
+        emoji = LANGUAGE_COLORS.get(lang, '⚪')
+        progress_bar = create_progress_bar(percentage)
         
-        # Create progress bar badge
-        badge = create_progress_bar(lang, percentage, color)
-        
-        readme_content += f"""{badge}
+        readme_content += f"""
+<div align="center">
 
-*Used in {repos_used} {'repository' if repos_used == 1 else 'repositories'}*
+### {emoji} {lang}
+
+```text
+{progress_bar} {percentage:.1f}%
+```
+
+**Used in {repos_used} {'repository' if repos_used == 1 else 'repositories'}**
+
+</div>
+
+---
 
 """
     
-    # Add footer with color legend
-    readme_content += f"""---
-
-## 🎨 Color Legend
-
-- 🔴 **Red (0-20%)** - Rarely used
-- 🟠 **Orange (20-40%)** - Occasionally used
-- 🟡 **Yellow (40-60%)** - Moderately used
-- 🟢 **Green (60-80%)** - Frequently used
-- 💚 **Bright Green (80-100%)** - Most used
-
+    # Add footer
+    readme_content += f"""
 ## 📈 Statistics
 
 - **Total repositories:** {len(repos)}
