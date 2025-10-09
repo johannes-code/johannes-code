@@ -2,6 +2,7 @@ import requests
 import os
 from datetime import datetime
 from collections import defaultdict
+from urllib.parse import quote
 
 # Get tokens and user info from environment
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
@@ -17,19 +18,17 @@ headers = {
 }
 
 def get_color_for_percentage(percentage):
-    """Returns color based on percentage (gradient from red to yellow to green)"""
+    """Returns color code based on percentage"""
     if percentage >= 80:
-        return '#00C851'  # Green
+        return 'brightgreen'  # Green
     elif percentage >= 60:
-        return '#7CB342'  # Light green
+        return 'green'  # Light green
     elif percentage >= 40:
-        return '#FFB300'  # Amber/Orange
+        return 'yellow'  # Yellow
     elif percentage >= 20:
-        return '#FF8800'  # Orange
-    elif percentage >= 10:
-        return '#FF6F00'  # Deep orange
+        return 'orange'  # Orange
     else:
-        return '#FF3D00'  # Red
+        return 'red'  # Red
 
 def get_all_repos():
     """Fetches all repositories for the user"""
@@ -62,16 +61,14 @@ def get_repo_languages(repo_name):
         return response.json()
     return {}
 
-def create_progress_bar_svg(percentage, color):
-    """Creates an SVG progress bar with color based on percentage"""
-    filled_width = int(percentage * 5)  # 500px = 100%
+def create_progress_bar(lang, percentage, color):
+    """Creates a shields.io progress bar badge"""
+    # URL encode the label and message
+    label = quote(lang)
+    message = quote(f"{percentage:.1f}%")
     
-    svg = f'''<svg width="500" height="25" xmlns="http://www.w3.org/2000/svg">
-    <rect width="500" height="25" fill="#e1e4e8" rx="12.5"/>
-    <rect width="{filled_width}" height="25" fill="{color}" rx="12.5"/>
-    <text x="250" y="17" text-anchor="middle" fill="#000" font-size="13" font-family="Arial, sans-serif" font-weight="bold">{percentage:.1f}%</text>
-</svg>'''
-    return svg
+    badge_url = f"https://img.shields.io/badge/{label}-{message}-{color}?style=for-the-badge"
+    return f"![{lang}]({badge_url})"
 
 def main():
     print("🔍 Fetching all repositories...")
@@ -104,17 +101,16 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 """
     
-    # Add each technology with colored progress bar
+    # Add each technology with colored progress badge
     for lang, bytes_count in sorted_languages:
         percentage = (bytes_count / total_bytes) * 100
         repos_used = repo_count[lang]
         color = get_color_for_percentage(percentage)
         
-        # Create progress bar SVG
-        progress_bar = create_progress_bar_svg(percentage, color)
+        # Create progress bar badge
+        badge = create_progress_bar(lang, percentage, color)
         
-        readme_content += f"""### {lang}
-{progress_bar}
+        readme_content += f"""{badge}
 
 *Used in {repos_used} {'repository' if repos_used == 1 else 'repositories'}*
 
@@ -125,11 +121,11 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 ## 🎨 Color Legend
 
-- 🔴 **Red (0-10%)** - Rarely used
-- 🟠 **Orange (10-40%)** - Occasionally used
+- 🔴 **Red (0-20%)** - Rarely used
+- 🟠 **Orange (20-40%)** - Occasionally used
 - 🟡 **Yellow (40-60%)** - Moderately used
-- 🟢 **Light Green (60-80%)** - Frequently used
-- 💚 **Green (80-100%)** - Most used
+- 🟢 **Green (60-80%)** - Frequently used
+- 💚 **Bright Green (80-100%)** - Most used
 
 ## 📈 Statistics
 
@@ -151,4 +147,3 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 if __name__ == "__main__":
     main()
-
