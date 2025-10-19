@@ -232,9 +232,9 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 ## 📈 Statistics
 
-- **Total repositories:** 49
+- **Total repositories:** 57
 - **Unique technologies:** 15
-- **Last updated:** October 12, 2025 at 01:39 UTC
+- **Last updated:** October 19, 2025 at 01:47 UTC
 
 ---
 
