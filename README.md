@@ -10,7 +10,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟨 JavaScript
 
 ```text
-███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 38.3%
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 34.7%
 ```
 
 **Used in 42 repositories**
@@ -25,22 +25,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 PHP
 
 ```text
-█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 26.1%
-```
-
-**Used in 3 repositories**
-
-</div>
-
----
-
-
-<div align="center">
-
-### ⚪ Blade
-
-```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.2%
+████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 24.8%
 ```
 
 **Used in 3 repositories**
@@ -55,7 +40,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 Python
 
 ```text
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.9%
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 14.0%
 ```
 
 **Used in 3 repositories**
@@ -67,10 +52,40 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 <div align="center">
 
+### ⚪ Blade
+
+```text
+█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 11.7%
+```
+
+**Used in 3 repositories**
+
+</div>
+
+---
+
+
+<div align="center">
+
+### 🟧 HTML
+
+```text
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.7%
+```
+
+**Used in 30 repositories**
+
+</div>
+
+---
+
+
+<div align="center">
+
 ### 🟪 CSS
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.3%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.0%
 ```
 
 **Used in 40 repositories**
@@ -85,7 +100,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 TypeScript
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.9%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.7%
 ```
 
 **Used in 4 repositories**
@@ -97,28 +112,13 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 <div align="center">
 
-### 🟧 HTML
-
-```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.7%
-```
-
-**Used in 30 repositories**
-
-</div>
-
----
-
-
-<div align="center">
-
 ### 🟩 Shell
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.0%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.9%
 ```
 
-**Used in 6 repositories**
+**Used in 7 repositories**
 
 </div>
 
@@ -130,7 +130,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟩 C#
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.0%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.9%
 ```
 
 **Used in 6 repositories**
@@ -175,10 +175,10 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 Dockerfile
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.1%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.2%
 ```
 
-**Used in 5 repositories**
+**Used in 6 repositories**
 
 </div>
 
@@ -249,7 +249,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 - **Total repositories:** 99
 - **Unique technologies:** 16
-- **Last updated:** May 03, 2026 at 03:27 UTC
+- **Last updated:** May 10, 2026 at 03:30 UTC
 
 ---
 
