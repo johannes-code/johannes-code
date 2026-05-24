@@ -10,7 +10,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟨 JavaScript
 
 ```text
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 33.5%
+████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 33.3%
 ```
 
 **Used in 42 repositories**
@@ -55,7 +55,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ Blade
 
 ```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.7%
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.0%
 ```
 
 **Used in 3 repositories**
@@ -85,7 +85,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 CSS
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.9%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.8%
 ```
 
 **Used in 40 repositories**
@@ -249,7 +249,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 - **Total repositories:** 99
 - **Unique technologies:** 16
-- **Last updated:** May 17, 2026 at 03:37 UTC
+- **Last updated:** May 24, 2026 at 03:49 UTC
 
 ---
 
