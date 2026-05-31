@@ -10,7 +10,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟨 JavaScript
 
 ```text
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 33.3%
+████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 32.3%
 ```
 
 **Used in 42 repositories**
@@ -25,22 +25,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 PHP
 
 ```text
-█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 26.0%
-```
-
-**Used in 3 repositories**
-
-</div>
-
----
-
-
-<div align="center">
-
-### 🟦 Python
-
-```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.5%
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 27.3%
 ```
 
 **Used in 3 repositories**
@@ -55,7 +40,22 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ Blade
 
 ```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.0%
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.5%
+```
+
+**Used in 3 repositories**
+
+</div>
+
+---
+
+
+<div align="center">
+
+### 🟦 Python
+
+```text
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.1%
 ```
 
 **Used in 3 repositories**
@@ -70,7 +70,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟧 HTML
 
 ```text
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.6%
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.4%
 ```
 
 **Used in 30 repositories**
@@ -100,7 +100,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 TypeScript
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.6%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.5%
 ```
 
 **Used in 4 repositories**
@@ -115,7 +115,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟩 Shell
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.9%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.8%
 ```
 
 **Used in 7 repositories**
@@ -160,7 +160,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 SCSS
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4%
 ```
 
 **Used in 4 repositories**
@@ -205,7 +205,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ MDX
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.1%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
 ```
 
 **Used in 2 repositories**
@@ -249,7 +249,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 - **Total repositories:** 99
 - **Unique technologies:** 16
-- **Last updated:** May 24, 2026 at 03:49 UTC
+- **Last updated:** May 31, 2026 at 04:01 UTC
 
 ---
 
