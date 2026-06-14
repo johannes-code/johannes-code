@@ -10,7 +10,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟨 JavaScript
 
 ```text
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 32.3%
+███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 31.9%
 ```
 
 **Used in 42 repositories**
@@ -25,22 +25,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 PHP
 
 ```text
-█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 27.3%
-```
-
-**Used in 3 repositories**
-
-</div>
-
----
-
-
-<div align="center">
-
-### ⚪ Blade
-
-```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.5%
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 27.0%
 ```
 
 **Used in 3 repositories**
@@ -55,7 +40,22 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 Python
 
 ```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.1%
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 14.1%
+```
+
+**Used in 4 repositories**
+
+</div>
+
+---
+
+
+<div align="center">
+
+### ⚪ Blade
+
+```text
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.3%
 ```
 
 **Used in 3 repositories**
@@ -85,7 +85,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 CSS
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.8%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.7%
 ```
 
 **Used in 40 repositories**
@@ -175,7 +175,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 Dockerfile
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.2%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.1%
 ```
 
 **Used in 6 repositories**
@@ -247,9 +247,9 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 ## 📈 Statistics
 
-- **Total repositories:** 105
+- **Total repositories:** 108
 - **Unique technologies:** 16
-- **Last updated:** June 07, 2026 at 04:07 UTC
+- **Last updated:** June 14, 2026 at 04:16 UTC
 
 ---
 
