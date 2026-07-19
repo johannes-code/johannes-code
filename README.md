@@ -55,7 +55,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ Blade
 
 ```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.6%
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.7%
 ```
 
 **Used in 3 repositories**
@@ -247,9 +247,9 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 ## 📈 Statistics
 
-- **Total repositories:** 115
+- **Total repositories:** 116
 - **Unique technologies:** 16
-- **Last updated:** July 12, 2026 at 02:54 UTC
+- **Last updated:** July 19, 2026 at 02:51 UTC
 
 ---
 
