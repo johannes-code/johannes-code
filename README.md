@@ -10,7 +10,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟨 JavaScript
 
 ```text
-█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 34.7%
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 34.5%
 ```
 
 **Used in 42 repositories**
@@ -25,7 +25,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟪 PHP
 
 ```text
-███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 22.8%
+███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 23.2%
 ```
 
 **Used in 3 repositories**
@@ -55,7 +55,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ Blade
 
 ```text
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.7%
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.6%
 ```
 
 **Used in 3 repositories**
@@ -100,7 +100,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### 🟦 TypeScript
 
 ```text
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.7%
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.6%
 ```
 
 **Used in 4 repositories**
@@ -145,7 +145,7 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 ### ⚪ Sass
 
 ```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8%
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.7%
 ```
 
 **Used in 2 repositories**
@@ -247,9 +247,9 @@ Automatically generated overview of all technologies I've worked with on GitHub.
 
 ## 📈 Statistics
 
-- **Total repositories:** 118
+- **Total repositories:** 121
 - **Unique technologies:** 16
-- **Last updated:** July 26, 2026 at 02:54 UTC
+- **Last updated:** August 02, 2026 at 02:53 UTC
 
 ---
 
